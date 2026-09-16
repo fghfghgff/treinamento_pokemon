@@ -1,0 +1,18 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+*{
+    zoom:1.2
+}
+
+.pokemon img:hover {
+    transform: scale(1.1);
+}
+
+.snorlax {
+    grid-column: 1 / 3;
+    width: 100%;
+}

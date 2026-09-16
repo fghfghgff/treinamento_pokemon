@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 32px;
+    height: 450px;
+}
+
+*{
+    zoom:1.2
+}
+
+.pokemon:hover {
+    transform: scale(1.1);
+}
+
+.gengar {
+    align-self: flex-end;
+}
